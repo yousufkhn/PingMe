@@ -4,9 +4,9 @@ function App() {
 
   return (
     <>
-      <div>
-        <h1>PingMe</h1>
-      </div>
+      <div className="flex h-screen items-center justify-center bg-black">
+      <h1 className="text-4xl font-bold text-green-400">✅ Tailwind Working!</h1>
+    </div>
     </>
   )
 }
