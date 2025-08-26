@@ -1,0 +1,58 @@
+everyday steps
+
+# Pull latest changes
+git pull origin main
+
+# Create a new branch for a feature
+git checkout -b feature/frontend-landing
+
+# Work on files (e.g., inside frontend/)
+git add .
+git commit -m "Added landing page with WhatsApp button"
+
+# Push branch to GitHub
+git push origin feature/frontend-landing
+
+# On GitHub: Create Pull Request → Merge into main
+
+
+📂 Where to Keep Notes / Ideas
+
+Use docs/ folder for planning:
+
+docs/
+│── roadmap.md        # Weekly tasks
+│── api-design.md     # Bot API + webhook structure
+│── db-schema.md      # Mongo models
+│── ui-wireframes.md  # Screenshots or notes for frontend
+
+
+Commit these too — GitHub will serve as your single source of truth.
+
+🛠️ 4. Suggested Branching Strategy
+
+main → Stable production-ready code.
+
+dev → Integration branch (where all features merge first).
+
+feature/* → For each feature:
+
+feature/frontend-landing
+
+feature/backend-auth
+
+feature/whatsapp-webhook
+
+⚡ Quick Commands Cheat Sheet
+
+git status → check what’s changed.
+
+git add . → stage changes.
+
+git commit -m "message" → save snapshot.
+
+git push origin branch-name → upload branch.
+
+git checkout -b new-branch → create new branch.
+
+git pull origin main → update local copy.
